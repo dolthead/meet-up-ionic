@@ -7,7 +7,7 @@
     </ion-header>
     <ion-content class="ion-padding">This is the menu content.</ion-content>
   </ion-menu>
-  <ion-page id="main-content">
+  <ion-page id="main-content" v-bind="$attrs">
     <ion-header class="ion-padding">
       <ion-toolbar>
         <ion-buttons slot="start">
